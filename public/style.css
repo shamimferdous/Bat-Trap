@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::after,
+a::before {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #fee85f;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+.main {
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #12121273, #121212ef), url(./background.png);
+    background-size: cover;
+    background-position: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    position: relative;
+}
+
+.main-header {
+    color: #e2e2e2;
+    /* text-align: center; */
+    font-size: 2.5rem;
+    /* border: 2px solid yellow; */
+    border-radius: 5px;
+    letter-spacing: 1.3rem;
+    display: block;
+    margin-left: 1.2rem;
+
+}
+
+
+.secondary-header {
+    color: #e2e2e2;
+    font-weight: 400;
+    font-size: 1rem;
+    display: block;
+    letter-spacing: .10rem;
+}
+
+
+.trap-input {
+    margin-top: 5rem;
+    border: 1px solid #0A354F;
+    padding: 1rem;
+    width: 60vw;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+    border-radius: 100rem;
+    background-color: rgba(255, 255, 255, 0.11);
+    color: aliceblue;
+
+    transition: all .5s;
+}
+
+.trap-input:focus {
+    width: 70vw;
+}
+
+.bat-logo {
+    height: 3rem;
+    width: 3rem;
+    color: rgb(204, 204, 204);
+    margin-left: -6rem;
+    margin-top: 2.5rem;
+    transition: all .5s;
+}
+
+.bat-logo:hover {
+ color: #4e6472;
+}
+
+.main-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trap-button {
+background-color: rgba(172, 47, 47, 0);
+border: none;
+cursor: pointer;
+}
+
+
+.loader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.closed {
+    display: none;
+}
+
+.icon {
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-right: 1rem;
+}
+
+.github {
+    height: 1.2rem;
+    width: 1.2rem;
+    margin-left: .5rem;
+}
+
+
+footer {
+    bottom: 0;
+    position: absolute;
+    margin-top: auto;
+    margin-bottom: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: #3c5666;
+    display: flex;
+    align-items: center;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+input:focus, textarea:focus, select:focus, button:focus {
+    outline: none; }
+  
+  button:focus {
+    outline: 0 !important; }
+
+
+
+    
